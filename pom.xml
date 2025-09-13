@@ -4,10 +4,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupid>SE</groupId>
+  <groupId>SE</groupId>
   <artifactId>OFOS</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <pack>war</pack>
+  <packaging>war</packaging>
 
   <name>OFOS Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
@@ -15,17 +15,18 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>8</maven.compiler.source>
-    <maven.compiler.target>8</maven.compiler.target>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
-      <artifactId>junit</artifiactId>
+      <artifactId>junit</artifactId>
       <version>4.13.1</version>
       <scope>test</scope>
     </dependency>
+    
   </dependencies>
 
   <build>
